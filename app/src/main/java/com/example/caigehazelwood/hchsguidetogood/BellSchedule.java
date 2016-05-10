@@ -10,8 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class BellSchedule  extends MainActivity {
-    /** Called when the activity is first created. */
+public class BellSchedule extends MainActivity {
+    /**
+     * Called when the activity is first created.
+     */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bellschedule);
@@ -25,5 +27,6 @@ public class BellSchedule  extends MainActivity {
             }
 
         });
+    }
 }
 
