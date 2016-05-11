@@ -3,4 +3,23 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK"
+        android:id="@+id/button11"
+        android:textColor="#FAFAFA"
+        android:background="#B71C1C"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Menu"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="46sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#EC407A" />
 </LinearLayout>
