@@ -75,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="WELCOME TO THE STUDENTS GUIDE TO HCHS"
+        android:text="WELCOME TO THE STUDENT&apos;S GUIDE TO HCHS"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -112,6 +112,6 @@
         android:layout_below="@+id/button6"
         android:layout_centerHorizontal="true"
         android:textColor="#000000"
-        android:background="#00695C" />
+        android:background="#FF6D00" />
 
 </RelativeLayout>

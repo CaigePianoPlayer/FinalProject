@@ -1,11 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Back To Start"
         android:id="@+id/button10" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Normal Bell Schedule"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1st Period: 8:00-8:47"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2nd Period: 8:53-9:40"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3rd Period: 9:46-10:33"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PLT 10:39-11:09"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4th Period: 11:15-12:45"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5th Period: 12:51-1:38"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="6th Period: 1:44-2:31"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="7th Period: 2:37-3:25"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
 </LinearLayout>
