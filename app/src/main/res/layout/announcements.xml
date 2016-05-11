@@ -4,12 +4,22 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button11"
+        android:background="#ff6f00" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Anouncements"
+        android:text="ANOUNCEMENTS"
         android:id="@+id/textView2"
-        android:layout_weight="0.16" />
+        android:background="#fbff00"
+        android:textAlignment="center"
+        android:textSize="46sp" />
 
 </LinearLayout>
