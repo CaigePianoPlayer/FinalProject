@@ -22,6 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        Button next1 = (Button) findViewById(R.id.button12);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Map.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
     }
 
 
