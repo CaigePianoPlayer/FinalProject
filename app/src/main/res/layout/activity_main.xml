@@ -107,7 +107,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="School Website"
+        android:text="Settings"
         android:id="@+id/button9"
         android:layout_below="@+id/button6"
         android:layout_centerHorizontal="true"

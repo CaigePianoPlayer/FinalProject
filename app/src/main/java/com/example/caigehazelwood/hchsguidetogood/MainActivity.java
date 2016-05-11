@@ -31,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        Button next2 = (Button) findViewById(R.id.button11);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Settings.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
     }
 
 

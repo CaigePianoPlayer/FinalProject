@@ -16,8 +16,8 @@ public class Map extends MainActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.map);
 
-            Button next = (Button) findViewById(R.id.button7);
-            next.setOnClickListener(new View.OnClickListener() {
+            Button next1 = (Button) findViewById(R.id.button7);
+            next1.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
                     Intent intent = new Intent();
                     setResult(RESULT_OK, intent);

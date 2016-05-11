@@ -3,7 +3,8 @@
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:weightSum="1"
-    android:background="#ffffff">
+    android:background="#ffffff"
+    android:orientation="horizontal">
 
     <Button
         style="?android:attr/buttonStyleSmall"
