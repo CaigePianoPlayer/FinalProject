@@ -24,4 +24,13 @@
         android:id="@+id/button11"
         android:background="#ff6f00" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Week of May 16 - 20:"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15"
+        android:textAlignment="center" />
+
 </LinearLayout>
