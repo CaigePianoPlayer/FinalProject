@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BellSchedule"></activity>
+        <activity android:name=".Map"></activity>
     </application>
 
 </manifest>
