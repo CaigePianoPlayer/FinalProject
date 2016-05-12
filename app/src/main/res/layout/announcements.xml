@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:weightSum="1"
     android:background="#ffffff"
-    android:orientation="horizontal">
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go Back"
-        android:id="@+id/button11"
-        android:background="#ff6f00" />
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="ANOUNCEMENTS"
+        android:text="@string/anouncements"
         android:id="@+id/textView2"
         android:background="#fbff00"
         android:textAlignment="center"
         android:textSize="46sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        android:id="@+id/button11"
+        android:background="#ff6f00" />
 
 </LinearLayout>
