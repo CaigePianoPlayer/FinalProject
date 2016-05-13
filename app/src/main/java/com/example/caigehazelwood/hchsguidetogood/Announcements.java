@@ -1,7 +1,13 @@
 package com.example.caigehazelwood.hchsguidetogood;
 
-/**
- * Created by jewel.stone on 5/10/2016.
- */
-public class Announcements {
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Announcements extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_announcements);
+    }
 }
