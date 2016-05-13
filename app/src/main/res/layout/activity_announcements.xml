@@ -6,16 +6,6 @@
     android:background="#ffffff"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/announcements"
-        android:id="@+id/textView2"
-        android:background="#fbff00"
-        android:textAlignment="center"
-        android:textSize="46dp" />
-
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
@@ -27,10 +17,60 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/announcements"
+        android:id="@+id/textView2"
+        android:background="#fbff00"
+        android:textAlignment="center"
+        android:textSize="46dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Week of May 16 - 20:"
         android:id="@+id/textView11"
+        android:layout_weight="0.06"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Monday May 16:  Nothin special for this day. Classes wiil consist of either studying for finals, or if you havent had them yet you will probably be doing nothing."
+        android:id="@+id/textView12"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.15"
-        android:textAlignment="center" />
+        android:textColor="#ffffff"
+        android:layout_weight="0.03"
+        android:background="#971b1b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tuesday May 17: No School!"
+        android:id="@+id/textView13"
+        android:textColor="#ffffff"
+        android:background="#971b1b"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wednesday May 18: Same as Monday just about, day before finals start."
+        android:id="@+id/textView14"
+        android:background="#971b1b"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wednesday May 18: Same as Monday just about, day before finals start."
+        android:id="@+id/textView15"
+        android:background="#971b1b"
+        android:textColor="#ffffff" />
 
 </LinearLayout>
