@@ -15,7 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BellSchedule"></activity>
+        <activity android:name=".Announcements" />
+        <activity android:name=".BellSchedule" />
+        <activity android:name=".FoodMenu" />
+        <activity android:name=".Teachers" />
+        <activity android:name=".CourseDescriptions" />
+        <activity android:name=".ClubsandActivities" />
+        <activity android:name=".Settings" />
+        <activity android:name=".ClassSchedule" />
         <activity android:name=".Map"></activity>
     </application>
 

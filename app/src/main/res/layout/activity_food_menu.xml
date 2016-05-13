@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK"
+        android:id="@+id/button11"
+        android:textColor="#FAFAFA"
+        android:background="#B71C1C"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Menu"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="46sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#EC407A"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:id="@+id/textView4"
+        android:textSize="23sp"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast: sausage Biscuit with Iced Coffee, Milk, or Orange Juice"
+        android:id="@+id/textView5"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView6" />
+</LinearLayout>

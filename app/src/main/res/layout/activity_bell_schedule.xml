@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:text="Go Back"
         android:id="@+id/button10"
-        android:background="#FFD47A26" />
+        android:background="#FFD47A26"
+        android:onClick="button10"/>
 
     <TextView
         android:layout_width="fill_parent"
