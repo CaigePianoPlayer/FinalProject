@@ -14,32 +14,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button next = (Button) findViewById(R.id.button4);
+        assert next != null;
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), BellSchedule.class);
-                startActivityForResult(myIntent, 0);
+                startActivity(myIntent);
             }
 
         });
 
-        Button next1 = (Button) findViewById(R.id.button12);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.map);
+
+        Button next1 = (Button) findViewById(R.id.button8);
+        assert next1 != null;
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), Map.class);
-                startActivityForResult(myIntent, 0);
+                startActivity(myIntent);
             }
 
         });
-
-        Button next2 = (Button) findViewById(R.id.button11);
-        next.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), Settings.class);
-                startActivityForResult(myIntent, 0);
-            }
-
-        });
-
     }
 
 

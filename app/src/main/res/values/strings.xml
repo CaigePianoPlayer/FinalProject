@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HCHSGuideToGood</string>
+    <string name="go_back">Go Back</string>
+    <string name="anouncements">ANOUNCEMENTS</string>
+    <string name="announcements">ANNOUNCEMENTS</string>
 </resources>
