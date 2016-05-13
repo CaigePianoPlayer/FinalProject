@@ -18,7 +18,31 @@ public class MainActivity extends AppCompatActivity {
         startActivity(changeScreen);
     }
     public void button3 (View view) {
-        Intent changeScreen = new Intent(this, Announcements.class);
+        Intent changeScreen = new Intent(this, FoodMenu.class);
+        startActivity(changeScreen);
+    }
+    public void button4 (View view) {
+        Intent changeScreen = new Intent(this, BellSchedule.class);
+        startActivity(changeScreen);
+    }
+    public void button5 (View view) {
+        Intent changeScreen = new Intent(this, CourseDescriptions.class);
+        startActivity(changeScreen);
+    }
+    public void button6 (View view) {
+        Intent changeScreen = new Intent(this, ClubsandActivities.class);
+        startActivity(changeScreen);
+    }
+    public void button7 (View view) {
+        Intent changeScreen = new Intent(this, ClassSchedule.class);
+        startActivity(changeScreen);
+    }
+    public void button8 (View view) {
+        Intent changeScreen = new Intent(this, Map.class);
+        startActivity(changeScreen);
+    }
+    public void button9 (View view) {
+        Intent changeScreen = new Intent(this, Settings.class);
         startActivity(changeScreen);
     }
 }
