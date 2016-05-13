@@ -107,7 +107,7 @@
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
-    <Space
+    orb<Space
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:layout_gravity="center_horizontal" />
