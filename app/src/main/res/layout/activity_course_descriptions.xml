@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="English- Reading Strategies 1 (2102), Reading Strategies 2 (2402), English 1 (2111), English 1 Advanced (2111A), English 2 (2121), English 2 Advanced (2121A), English 3 (2131), Advanced Placement English 3- Language/ Composition (2433), English 4 (2141), Advanced Placement English 4-Literature/Composition (2443), Advanced Placement Seminar/Capstone (2412), English 102-HCC (2444), Intro to Media (2451), Journalism"
+        android:text="English- Reading Strategies 1 (2102), Reading Strategies 2 (2402), English 1 (2111), English 1 Advanced (2111A), English 2 (2121), English 2 Advanced (2121A), English 3 (2131), Advanced Placement English 3- Language/ Composition (2433), English 4 (2141), Advanced Placement English 4-Literature/Composition (2443), Advanced Placement Seminar/Capstone (2412), English 102-HCC (2444), Intro to Media (2451), Journalism 2 (2454), Journalism 3 (2455), TV/Media 2 (2452), TV/"
         android:id="@+id/textView17"
         android:layout_below="@+id/textView16"
         android:layout_alignParentStart="true"
