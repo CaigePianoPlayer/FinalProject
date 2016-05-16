@@ -27,21 +27,64 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Monday"
+        android:text="The Henderson County High School cafeteria staff offer numerous breakfast and lunch choices each day."
         android:id="@+id/textView4"
         android:textSize="23sp"
-        android:paddingTop="20dp" />
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Breakfast: sausage Biscuit with Iced Coffee, Milk, or Orange Juice"
+        android:text="Breakfast:"
         android:id="@+id/textView5"
-        android:textSize="18dp" />
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:paddingTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView6" />
+        android:text="Sausage Biscuits, Sausage &amp; Eggs, Poptarts, Cereal, Orange Juice, Milk, Apple Juice"
+        android:id="@+id/textView6"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch:"
+        android:id="@+id/textView11"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza, Chicken Alfredo, Chicken Rings, Hamburgers, Spaghetti, Crispito, Peanut Butter &amp; Jelly, Meat Sandwhiches"
+        android:id="@+id/textView12"
+        android:paddingTop="8dp"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ale Cart:"
+        android:id="@+id/textView13"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Bites, Mini Tacos, Tea, Iced Coffee, Jalepeno Poppers, Tornados, Salad Bar, Fries, Tater Tots, Bosco Sticks, Baked Potato, Mozzorella Sticks"
+        android:id="@+id/textView14"
+        android:textSize="19dp"
+        android:paddingTop="8dp"
+        android:textColor="#000000" />
 </LinearLayout>

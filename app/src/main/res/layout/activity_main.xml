@@ -28,8 +28,7 @@
         android:layout_below="@+id/button5"
         android:layout_alignParentLeft="true"
         android:textColor="#000000"
-        android:background="#FFD600"
-        android:onClick="button2"/>
+        android:background="#FFD600" />
 
     <Button
         android:layout_width="match_parent"

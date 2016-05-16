@@ -9,4 +9,117 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.caigehazelwood.hchsguidetogood.CourseDescriptions">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK"
+        android:id="@+id/button12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:background="#607D8B" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true"
+        android:textSize="46dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#B71C1C"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English- Reading Strategies 1 (2102), Reading Strategies 2 (2402), English 1 (2111), English 1 Advanced (2111A), English 2 (2121), English 2 Advanced (2121A), English 3 (2131), Advanced Placement English 3- Language/ Composition (2433), English 4 (2141), Advanced Placement English 4-Literature/Composition (2443), Advanced Placement Seminar/Capstone (2412), English 102-HCC (2444), Intro to Media (2451), Journalism 2 (2454), Journalism 3 (2455), TV/Media 2 (2452), TV/"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathematics-"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science-"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Studies-"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fine Arts-"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Language-"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health &amp; Physical Education-"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miscellaneous-"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Career &amp; Technical Education-"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textColor="#000000" />
 </RelativeLayout>
