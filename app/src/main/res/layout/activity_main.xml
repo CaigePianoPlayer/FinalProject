@@ -64,17 +64,6 @@
         android:textColor="#000000"
         android:onClick="button5"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Clubs &amp; Activities"
-        android:id="@+id/button6"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/button3"
-        android:layout_alignParentLeft="true"
-        android:textColor="#000000"
-        android:background="#607D8B"
-        android:onClick="button6"/>
 
     <TextView
         android:layout_width="match_parent"

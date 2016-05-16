@@ -29,10 +29,6 @@ public class MainActivity extends AppCompatActivity {
         Intent changeScreen = new Intent(this, CourseDescriptions.class);
         startActivity(changeScreen);
     }
-    public void button6 (View view) {
-        Intent changeScreen = new Intent(this, ClubsandActivities.class);
-        startActivity(changeScreen);
-    }
     public void button7 (View view) {
         Intent changeScreen = new Intent(this, ClassSchedule.class);
         startActivity(changeScreen);

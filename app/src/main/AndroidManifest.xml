@@ -20,10 +20,12 @@
         <activity android:name=".FoodMenu" />
         <activity android:name=".Teachers" />
         <activity android:name=".CourseDescriptions" />
-        <activity android:name=".ClubsandActivities" />
         <activity android:name=".Settings" />
         <activity android:name=".ClassSchedule" />
-        <activity android:name=".Map"></activity>
+        <activity android:name=".Map" />
+        <activity android:name=".LateStartBell" />
+        <activity android:name=".TestingBell" />
+        <activity android:name=".PepRallyBell"></activity>
     </application>
 
 </manifest>
