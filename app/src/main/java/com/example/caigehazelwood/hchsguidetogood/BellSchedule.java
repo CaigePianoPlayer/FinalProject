@@ -16,4 +16,16 @@ public class BellSchedule extends AppCompatActivity {
         Intent changeScreen = new Intent(this, MainActivity.class);
         startActivity(changeScreen);
     }
+    public void button13 (View view) {
+        Intent changeScreen = new Intent(this, LateStartBell.class);
+        startActivity(changeScreen);
+    }
+    public void button14 (View view) {
+        Intent changeScreen = new Intent(this, TestingBell.class);
+        startActivity(changeScreen);
+    }
+    public void button12 (View view) {
+        Intent changeScreen = new Intent(this, PepRallyBell.class);
+        startActivity(changeScreen);
+    }
 }

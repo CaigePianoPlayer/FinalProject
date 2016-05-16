@@ -18,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:textColor="#000000"
         android:textSize="23dp"
-        android:background="#607D8B" />
+        android:background="#607D8B"
+        android:onClick="button12"/>
 
     <TextView
         android:layout_width="match_parent"
