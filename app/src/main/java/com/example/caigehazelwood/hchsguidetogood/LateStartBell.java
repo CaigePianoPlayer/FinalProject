@@ -13,7 +13,7 @@ public class LateStartBell extends AppCompatActivity {
         setContentView(R.layout.activity_late_start_bell);
     }
     public void button15 (View view) {
-        Intent changeScreen = new Intent(this, TestingBell.class);
+        Intent changeScreen = new Intent(this, MainActivity.class);
         startActivity(changeScreen);
     }
 }

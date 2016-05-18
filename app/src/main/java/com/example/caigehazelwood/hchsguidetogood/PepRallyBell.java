@@ -13,7 +13,7 @@ public class PepRallyBell extends AppCompatActivity {
         setContentView(R.layout.activity_pep_rally_bell);
     }
     public void button17 (View view) {
-        Intent changeScreen = new Intent(this, TestingBell.class);
+        Intent changeScreen = new Intent(this, MainActivity.class);
         startActivity(changeScreen);
     }
 }

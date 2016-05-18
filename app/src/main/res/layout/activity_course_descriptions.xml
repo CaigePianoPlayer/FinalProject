@@ -26,7 +26,8 @@
         android:layout_centerHorizontal="true"
         android:textColor="#000000"
         android:textSize="23dp"
-        android:background="#607D8B" />
+        android:background="#607D8B"
+        android:onClick="button12"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -104,7 +105,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Health &amp; Physical Education-Freshman Health & Safety and Freshman PE(7488,7489),Health and PE for Health Science/Freshman Health and Safety and Freshman PE(9474), Beginning Yoga(7484),Aerobics(7483), PE/Lifetime Fitness/Games(7493F or 7493S), PE/Weightlifting/Games(7497F or 7497S), PE/Strength and Conditioning(7495F or 7495S), PE/Personal Wellness and Fitness(7490F or 7490S)"
+        android:text="Health &amp; Physical Education-Freshman Health and Safety and Freshman PE(7488,7489),Health and PE for Health Science/Freshman Health and Safety and Freshman PE(9474), Beginning Yoga(7484),Aerobics(7483), PE/Lifetime Fitness/Games(7493F or 7493S), PE/Weightlifting/Games(7497F or 7497S), PE/Strength and Conditioning(7495F or 7495S), PE/Personal Wellness and Fitness(7490F or 7490S)"
         android:id="@+id/textView23"
         android:layout_below="@+id/textView22"
         android:layout_alignParentStart="true"

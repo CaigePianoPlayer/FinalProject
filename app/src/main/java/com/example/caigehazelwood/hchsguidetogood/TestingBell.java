@@ -13,7 +13,7 @@ public class TestingBell extends AppCompatActivity {
         setContentView(R.layout.activity_testing_bell);
     }
     public void button16 (View view) {
-        Intent changeScreen = new Intent(this, TestingBell.class);
+        Intent changeScreen = new Intent(this, MainActivity.class);
         startActivity(changeScreen);
     }
 }
