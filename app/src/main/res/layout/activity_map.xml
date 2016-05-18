@@ -7,14 +7,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.caigehazelwood.hchsguidetogood.Map">
+    tools:context="com.example.caigehazelwood.hchsguidetogood.Map"
+    android:background="@drawable/Map_Of_School">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Go Back"
         android:id="@+id/button15"
+        android:onClick="button15"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:onClick="button15"/>
+        android:layout_alignParentEnd="true"
+        android:background="#fc8004" />
 </RelativeLayout>
