@@ -36,7 +36,7 @@
         android:layout_below="@id/button16"
         android:background="#FF6F2323"
         android:textAlignment="center"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+        android:textColor="@color/abc_input_method_navigation_guard" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -60,7 +60,7 @@
         android:background="#FF6F2323"
         android:layout_below="@+id/textView21"
         android:layout_alignParentStart="true"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+        android:textColor="@color/abc_input_method_navigation_guard" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -84,7 +84,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="30dp"
         android:background="#FF6F2323"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+        android:textColor="@color/abc_input_method_navigation_guard" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -108,7 +108,7 @@
         android:layout_centerHorizontal="true"
         android:text="6th Period: 1:08-1:55"
         android:textSize="30dp"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:background="#FF6F2323" />
 
     <TextView
@@ -132,7 +132,7 @@
         android:layout_below="@+id/textView27"
         android:layout_alignParentStart="true"
         android:textSize="30dp"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:background="#FF6F2323" />
 
 

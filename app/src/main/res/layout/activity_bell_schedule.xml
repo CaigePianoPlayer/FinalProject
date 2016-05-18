@@ -25,7 +25,7 @@
         android:text="Normal Bell Schedule"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="32dp"
         android:background="#FF6F2323" />
 
@@ -46,7 +46,7 @@
         android:text="2nd Period: 8:53-9:40"
         android:id="@+id/textView4"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
@@ -67,7 +67,7 @@
         android:text="PLT 10:39-11:09"
         android:id="@+id/textView6"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
@@ -88,7 +88,7 @@
         android:text="5th Period: 12:51-1:38"
         android:id="@+id/textView8"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
@@ -109,7 +109,7 @@
         android:text="7th Period: 2:37-3:25"
         android:id="@+id/textView10"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
