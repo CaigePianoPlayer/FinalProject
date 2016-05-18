@@ -56,7 +56,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Science-"
+        android:text="Science-Integrated Physical Science(4103), Integrated Physical Science-Advanced(4103A), Biology(4100),Biology-Advanced(4100A),Agri-Biology(4200), Advanced Placement Biology(4413), Chemistry(4121), Chemistry(4121A0, Advanced Placement Chemistry(4122), Advanced Placement Environmental Science(4420), Anatomy/Physiology(4417), Physics(4426), Advanced Placement Physics C: Mechanics(4429), Astronomy(4442), Meteorology(4443),Forensic Science(4419), Botany/Zoology(4416), Rock Science(4445), Science Fiction vs Science Fact(4444)"
         android:id="@+id/textView19"
         android:layout_below="@+id/textView18"
         android:layout_alignParentStart="true"
@@ -86,7 +86,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="World Language-"
+        android:text="World Language-German 1(6155), German 2(6156), Spanish 1(6151), Spanish 2(6152),Spanish 1 Block and Spanish 2 Block(6151B, 6152B),Spanish 3(6453), Advanced Placement Spanish(6455),Special Topics in Spanish Literature(6454), Spanish Elementary Tutor(6457)"
         android:id="@+id/textView22"
         android:layout_below="@+id/textView21"
         android:layout_alignParentStart="true"
@@ -96,7 +96,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Health &amp; Physical Education-"
+        android:text="Health &amp; Physical Education-Freshman Health & Safety and Freshman PE(7488,7489),Health and PE for Health Science/Freshman Health and Safety and Freshman PE(9474), Beginning Yoga(7484),Aerobics(7483), PE/Lifetime Fitness/Games(7493F or 7493S), PE/Weightlifting/Games(7497F or 7497S), PE/Strength and Conditioning(7495F or 7495S), PE/Personal Wellness and Fitness(7490F or 7490S)"
         android:id="@+id/textView23"
         android:layout_below="@+id/textView22"
         android:layout_alignParentStart="true"
@@ -106,7 +106,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Miscellaneous-"
+        android:text="Miscellaneous- Peer Tutor(7461), English/Math Tutor(7464), Teacher/Office Aide(7170), Elementary Reading Tutor(7462), Intro to Teaching(7472)"
         android:id="@+id/textView24"
         android:layout_below="@+id/textView23"
         android:layout_alignParentStart="true"
@@ -116,7 +116,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Career &amp; Technical Education-"
+        android:text="Career &amp; Technical Education- Agriculture, Business, Marketing, Criminal Law, Family and Consumer Science, Health Sciences, Industrial Technology, Information Technology, Media Arts, Engineering, Army JROTC"
         android:id="@+id/textView25"
         android:layout_below="@+id/textView24"
         android:layout_alignParentStart="true"
