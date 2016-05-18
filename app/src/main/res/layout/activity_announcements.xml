@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView" >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,16 +28,22 @@
         android:layout_height="wrap_content"
         android:text="GO BACK"
         android:id="@+id/button11"
-        android:background="#ff6f00"
-        android:onClick="button11"/>
+        android:background="#ff6f00" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Week of May 16 - 20:"
+        android:text=" Events: \n 5/18/2016 Senior Holiday World Trip\n  \n 5/18/2016 Basketball Varsity Away 6pm - 9pm \n Location: @ Hopkinsville \n \n
+5/19/2016 Final Exams 2, 4, 6 periods \n \n5/19/2016 Track Regional 5pm - 7pm \n \n 5/19/2016 Softball V/JV Away 5:30pm - 9pm \nLocation: @Owensboro \n \n
+5/20/2016 Final Exams 5, 7 periods \n \n 5/20/2016 Talent Show \n \n5/20/2016 Basketball Varsity Home Cancer Awareness Night \n 5:45pm - 9pm \n \n
+5/21/2016 Band State Solo and Ensemble Festival \n \n 5/21/2016 Baseball V/JV Home 12pm - 4pm \n \n 5/23/2016 Final Exams 1, 3 periods \n \n 5/23/2016 Freshman Fun Day \n \n
+5/23/2016 Softball District Game Home vs. Webster Co. 5:30pm \n \n 5/23/2016 Band-Washington D.C. Trip Send Off Concert \n Central Panrk 6pm \n \n 5/24/2016 Freshman Awards \n \n 5/24/2016 Last Day of School! \n \n
+5/24/2016 Senior Honors Night \n \n 5/24/2016 Baseball Varsity District Tournament Championship Game 7:30pm \n \n 5/24/2016 Senior Graduation Practice and Walk 8am - 12pm \n \n
+5/24/2016 Softball District Championship Game Home 5:30pm \n \n 5/27/2016 Graduation Ceremonies 7pm\n Location: Ford Center, Evansville, IN"
         android:id="@+id/textView11"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.15"
-        android:textAlignment="center" />
+        android:textColor="#000000"/>
 
 </LinearLayout>
+</ScrollView>

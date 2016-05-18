@@ -112,7 +112,8 @@
         android:layout_height="wrap_content"
         android:text="Late Start Wednesday"
         android:id="@+id/button13"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="button13"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -126,14 +127,16 @@
         android:text="Testing"
         android:id="@+id/button14"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:onClick="button14"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button12"
         android:layout_gravity="center_horizontal"
-        android:text="Pep-Rally" />
+        android:text="Pep-Rally"
+        android:onClick="button12"/>
 
     orb
 

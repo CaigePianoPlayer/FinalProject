@@ -7,8 +7,8 @@
     android:id="@+id/scrollView" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width= "match_parent"
-    android:layout_height= "match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -84,7 +84,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fine Arts- Intro to 2D Art (7419), Intro to 3D Art (7420), Art 1 (6421), Art 2 (6422), Art 3 (6423), Art 4 (6424), Printmaking (6417), Advertising Design (6418), Advanced Placement Art Studio (6427), Advanced Placment Art History (6428), Preparatory Music Theory/ College Readiness in Music Theory (6413), Advanced Placement Music Theory (6409), Concert Band (6401), Marching Band (6402), Symphonic Band (6403), Wind Ensenmble (6408), Jazz Band (6405), Guitar (6406), Percussiv Studies (6404), Musical Production (6416), Men&apos;s Chorus (6410B), Women&apos;s Chorus (6410G), Show Choir (6411), Chamber Choir (6414), Theater 1 (6446), Theater 2 (6447), Theater Costumes and Make-up (6444), Introduction to Music (6443), Introduction to Choreography (6445), Dancing through the Decades (7485A), Dancing through the Decades (7485B), Recreational Dance A (7487A), Recreational Dance B (7487B)"
+        android:text="Fine Arts-"
         android:id="@+id/textView21"
         android:layout_below="@+id/textView20"
         android:layout_alignParentStart="true"
@@ -104,7 +104,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Health &amp; Physical Education-Freshman Health and Safety and Freshman PE(7488,7489),Health and PE for Health Science/Freshman Health and Safety and Freshman PE(9474), Beginning Yoga(7484),Aerobics(7483), PE/Lifetime Fitness/Games(7493F or 7493S), PE/Weightlifting/Games(7497F or 7497S), PE/Strength and Conditioning(7495F or 7495S), PE/Personal Wellness and Fitness(7490F or 7490S)"
+        android:text="Health &amp; Physical Education-Freshman Health & Safety and Freshman PE(7488,7489),Health and PE for Health Science/Freshman Health and Safety and Freshman PE(9474), Beginning Yoga(7484),Aerobics(7483), PE/Lifetime Fitness/Games(7493F or 7493S), PE/Weightlifting/Games(7497F or 7497S), PE/Strength and Conditioning(7495F or 7495S), PE/Personal Wellness and Fitness(7490F or 7490S)"
         android:id="@+id/textView23"
         android:layout_below="@+id/textView22"
         android:layout_alignParentStart="true"
