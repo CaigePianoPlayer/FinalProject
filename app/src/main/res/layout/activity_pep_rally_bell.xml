@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.caigehazelwood.hchsguidetogood.PepRallyBell">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pep Rally "
+        android:id="@+id/textView29"
+        android:layout_below="@+id/button17"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:background="#FF6F2323" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1st Period: 8:00-8:46"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView29"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/abc_input_method_navigation_guard" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2nd Period: 8:52-9:38"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:textSize="30dp"
+        android:background="#FF6F2323"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3rd Period: 9:44-10:30"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/abc_input_method_navigation_guard" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4th Period: 10:36-12:06"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView32"
+        android:layout_alignStart="@+id/textView32"
+        android:textSize="30dp"
+        android:background="#FF6F2323"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5th Period: 12:15-1:02"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/abc_input_method_navigation_guard" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="6th Period: 1:04-1:50"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:background="#FF6F2323"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="7th Period: 1:56-2:45"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/abc_input_method_navigation_guard" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pep Rally- 2:55-3:25"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:textSize="30dp"
+        android:background="#FF6F2323"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+</RelativeLayout>
