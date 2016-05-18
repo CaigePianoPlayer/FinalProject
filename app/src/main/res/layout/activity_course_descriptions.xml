@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,6 +14,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.caigehazelwood.hchsguidetogood.CourseDescriptions">
+
+
 
     <Button
         android:layout_width="match_parent"
@@ -37,7 +45,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="English- Reading Strategies 1 (2102), Reading Strategies 2 (2402), English 1 (2111), English 1 Advanced (2111A), English 2 (2121), English 2 Advanced (2121A), English 3 (2131), Advanced Placement English 3- Language/ Composition (2433), English 4 (2141), Advanced Placement English 4-Literature/Composition (2443), Advanced Placement Seminar/Capstone (2412), English 102-HCC (2444), Intro to Media (2451), Journalism 2 (2454), Journalism 3 (2455), TV/Media 2 (2452), TV/"
+        android:text="English- Reading Strategies 1 (2102), Reading Strategies 2 (2402), English 1 (2111), English 1 Advanced (2111A), English 2 (2121), English 2 Advanced (2121A), English 3 (2131), Advanced Placement English 3- Language/ Composition (2433), English 4 (2141), Advanced Placement English 4-Literature/Composition (2443), Advanced Placement Seminar/Capstone (2412), English 102-HCC (2444), Intro to Media (2451), Journalism 2 (2454), Journalism 3 (2455), TV/Media 2 (2452), TV/Media 3 (2453), Yearbook 1 (2481), Yearbook 2 (2482), Viewing/Reading Mysteries (2491), Introduction to Philosophy (2492), Film Appreciation (2493), Creative Writing (2494), Poetry (2498), Word Power (Etymology) (2490), Speech 1 (2495), Speech 2 (2496), Basic Public Speaking (2497)"
         android:id="@+id/textView17"
         android:layout_below="@+id/textView16"
         android:layout_alignParentStart="true"
@@ -47,7 +55,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mathematics-"
+        android:text="Mathematics- Math Success 1 (taken with Algebra Concepts) (3100), Algebra Concepts (3102), Algebra 1 (3103), Math Success 2 (taken with Algebra 1) (3200), Algebra 1 Advanced (3106), Geometry (3120), Geometry Advanced (3121), Algebra 2 (3113), Algebra 2 with Pre-College Algebra (3113CO), Algebra 2 with Pre-Calculus (3113CA), Algebra College Transition (3125), HCC College Algebra &amp; Funchtions (3431), HCHS College Algebra &amp; Functions (3425), Trigonometry (3432), Advanced Placement Calculus-AB (3440), Advanced Placement Calculus-BC (3441), Advanced Placement Statistics (3436), Advanced Placement Computer Science (3443), Advanced Mathematical Problem Solving (AMPS) (3444)"
         android:id="@+id/textView18"
         android:layout_below="@+id/textView17"
         android:layout_alignParentStart="true"
@@ -67,7 +75,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Social Studies-"
+        android:text="Social Studies- World Civilizations (5101), World Civilizations-Advanced (5102), American Studies (5104), Advanced Placement United States Government (5405), United States History (5106), Advanced Placement United States History (5408), Psychology (5404), Advanced Placement Human Geography (5414), Sociology (5401), Advanced Placement Psychology (5413), Advanced Placement European History (5402), Advanced Placement Microeconomics (5409), Advanced Placment Art History (6428), College Studies and Inquiry (5400), Law &amp; Justice (5419), Eyes on the Prize (5425), World War II Germany (5437), Abnormal Psychology (5403), Community Involvement (5418)"
         android:id="@+id/textView20"
         android:layout_below="@+id/textView19"
         android:layout_alignParentStart="true"
@@ -123,4 +131,6 @@
         android:layout_alignParentStart="true"
         android:textSize="23dp"
         android:textColor="#000000" />
+
 </RelativeLayout>
+</ScrollView>
