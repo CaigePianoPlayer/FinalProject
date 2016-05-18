@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView" >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -107,19 +113,22 @@
         android:textSize="30dp"
         android:background="#FF6F2323" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Late Start Wednesday"
-        android:id="@+id/button13"
-        android:layout_gravity="center_horizontal"
-        android:onClick="button13"/>
+
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"></LinearLayout>
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Late Start Wednesday"
+            android:id="@+id/button13"
+            android:layout_gravity="center_horizontal"
+            android:onClick="button13"
+            android:layout_weight="1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -128,7 +137,8 @@
         android:id="@+id/button14"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
-        android:onClick="button14"/>
+        android:onClick="button14"
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -136,8 +146,11 @@
         android:id="@+id/button12"
         android:layout_gravity="center_horizontal"
         android:text="Pep-Rally"
-        android:onClick="button12"/>
+        android:onClick="button12"
+        android:layout_weight="1"/>
+    </LinearLayout>
 
     orb
 
 </LinearLayout>
+    </ScrollView>

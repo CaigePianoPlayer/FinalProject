@@ -19,11 +19,10 @@
         <activity android:name=".BellSchedule" />
         <activity android:name=".FoodMenu" />
         <activity android:name=".CourseDescriptions" />
-        <activity android:name=".Settings" />
         <activity android:name=".Map" />
         <activity android:name=".LateStartBell" />
         <activity android:name=".TestingBell" />
-        <activity android:name=".PepRallyBell"></activity>
+        <activity android:name=".PepRallyBell" />
     </application>
 
 </manifest>

@@ -33,8 +33,4 @@ public class MainActivity extends AppCompatActivity {
         Intent changeScreen = new Intent(this, Map.class);
         startActivity(changeScreen);
     }
-    public void button9 (View view) {
-        Intent changeScreen = new Intent(this, Settings.class);
-        startActivity(changeScreen);
-    }
 }
