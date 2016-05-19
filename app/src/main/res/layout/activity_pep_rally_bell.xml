@@ -22,7 +22,8 @@
         android:id="@+id/button17"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:onClick="button17"/>
+        android:onClick="button17"
+        android:background="#FFD47A26" />
 
     <TextView
         android:layout_width="fill_parent"

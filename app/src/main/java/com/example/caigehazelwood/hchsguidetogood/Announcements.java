@@ -12,7 +12,7 @@ public class Announcements extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_announcements);
     }
-    public void button11 (View view) {
+    public void button15 (View view) {
         Intent changeScreen = new Intent(this, MainActivity.class);
         startActivity(changeScreen);
     }

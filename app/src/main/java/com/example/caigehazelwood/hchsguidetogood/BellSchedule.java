@@ -4,8 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class BellSchedule extends AppCompatActivity {
+public class BellSchedule extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +22,12 @@ public class BellSchedule extends AppCompatActivity {
         startActivity(changeScreen);
     }
     public void button13 (View view) {
-        Intent changeScreen = new Intent(this, LateStartBell.class);
+        Intent changeScreen = new Intent(this, LateStart.class);
         startActivity(changeScreen);
     }
     public void button14 (View view) {
         Intent changeScreen = new Intent(this, TestingBell.class);
         startActivity(changeScreen);
     }
+
 }
